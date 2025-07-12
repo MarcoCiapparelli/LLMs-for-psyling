@@ -20,6 +20,15 @@ The notebook was first developed for [WoProc 2024](https://moproc2024.net/) (2h 
 > Misra, K. (2022). minicons: Enabling flexible behavioral and representational analyses of transformer language models. arXiv preprint arXiv:2203.13112.
 </medium>
 
+while workshop materials include the Words in Cotext (WiC) dataset annotated and copyright-free images from the THINGSplus dataset:
+<small>
+> Pilehvar, M. T., & Camacho-Collados, J. (2018). WiC: the word-in-context dataset for evaluating context-sensitive meaning representations. arXiv preprint arXiv:1808.09121.
+
+> Cassani, G., Günther, F., Attanasio, G., Bianchi, F., & Marelli, M. (2023). Meaning Modulations and Stability in Large Language Models: An Analysis of BERT Embeddings for Psycholinguistic Research.
+
+> Stoinski, L. M., Perkuhn, J., & Hebart, M. N. (2024). THINGSplus: New norms and metadata for the THINGS database of 1854 object concepts and 26,107 natural object images. Behavior Research Methods, 56(3), 1583-1603.
+</small>
+
 ---
 
 ### Examples from the notebook
