@@ -6,7 +6,7 @@ You can find the Colab notebook [here](https://drive.google.com/file/d/1NkIgEsPu
 ---
 
 ### About
-The present notebook is a guide on (mostly) language models. It was developed over the course of two workshops as a learning resource for psychologists, linguists and neuroscientists, and is geared toward that audience (I'm one of them myself 😺). Lacking extensive commentary, I suggest using the notebook as a playground! Code sections also come with example exercises, followed by possible solutions. The main topics covered are:
+The present notebook is a guide on (mostly) language models. It was developed over the course of two workshops as a learning resource for psychologists, linguists and neuroscientists, and is geared toward that audience (I'm one of them myself! 😺). Lacking extensive commentary, I suggest using the notebook as a playground! Code sections also come with example exercises, followed by possible solutions. The main topics covered are:
 *  **representations** in LLMs: extracting and comparing word embeddings, probe the effects of context, compare representations within and across models
 *  **prediction** in LLMs: extracting predictability measures, use them to probe the 'knowledge' of models
 *  **multimodality**: extract representations from a computer vision models, compare them to those of LLMs, and extract prediction measures from language-vision models
@@ -23,10 +23,10 @@ The notebook was first developed for [WoProc 2024](https://moproc2024.net/) (2h 
 ---
 
 ### Examples from the notebook
-Extract word embeddings from BERT and inspect how context can modulate their representation. For example, what happens to <u>fruitless<u> when we place it in a sentence that points to its typical methaporical meaning ("vain") as opposed to one where its meaning is literal ("without fruits")? 
+Extract word embeddings from BERT and inspect how context can modulate their representation. For example, what happens to <ins>fruitless</ins> when we place it in a sentence that points to its typical methaporical meaning ("vain") as opposed to one where its meaning is literal ("without fruits")? 
 
 <p align="center">
-  <img src="example_outputs/example_fruitless.png" alt="Colab Demo" width="800"/>
+  <img src="example_outputs/example_fruitless.png" alt="Colab Demo" width="700"/>
 </p>
 
 <br>
@@ -34,7 +34,7 @@ Extract word embeddings from BERT and inspect how context can modulate their rep
 Observe the effect of replacing a word with sense-appropriate and sense-inappropriate alternatives using the [WiC annotated dataset](https://osf.io/preprints/psyarxiv/b45ys_v1). Look at the effects of context-word interaction on both embeddings and surprisal:
 
 <p align="center">
-  <img src="example_outputs/example_wic.png" alt="Colab Demo" width="800"/>
+  <img src="example_outputs/example_wic.png" alt="Colab Demo" width="700"/>
 </p>
 
 <br>
@@ -42,7 +42,7 @@ Observe the effect of replacing a word with sense-appropriate and sense-inapprop
 Perform representational similarity analysis to compare how the same concepts are represented across languages (in their correponding monolingual models):
 
 <p align="center">
-  <img src="example_outputs/example_RSA_crosslingual.png" alt="Colab Demo" width="750"/>
+  <img src="example_outputs/example_RSA_crosslingual.png" alt="Colab Demo" width="650"/>
 </p>
 
 <br>
@@ -50,5 +50,5 @@ Perform representational similarity analysis to compare how the same concepts ar
 Compare concept representations across modalities in unimodal models, using the AlexNet convolutional neural network to represent images (from the [THINGSplus database](https://link.springer.com/article/10.3758/s13428-023-02110-8)) and BERT-large to represent their captions:
 
 <p align="center">
-  <img src="example_outputs/example_RSA_crossmodal.png" alt="Colab Demo" width="800"/>
+  <img src="example_outputs/example_RSA_crossmodal.png" alt="Colab Demo" width="700"/>
 </p>
