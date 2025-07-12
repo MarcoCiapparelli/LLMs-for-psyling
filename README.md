@@ -25,17 +25,30 @@ The notebook was first developed for [WoProc 2024](https://moproc2024.net/) (2h 
 ### Examples from the notebook
 Extract word embeddings from BERT and inspect how context can modulate their representation. For example, what happens to <u>fruitless<u> when we place it in a sentence that points to its typical methaporical meaning ("vain") as opposed to one where its meaning is literal ("without fruits")? 
 
-![example_fruitless](example_outputs/example_fruitless.png)
+<p align="center">
+  <img src="example_outputs/example_fruitless.png" alt="Colab Demo" width="800"/>
+</p>
 
-Observe the effect of replacing a word with sense-appropriate and sense-inappropriate alternatives using the [WiC annotated dataset](https://osf.io/preprints/psyarxiv/b45ys_v1). Look both at embeddings and surprisal:
+<br>
 
-![example_wic](example_outputs/example_wic.png)
+Observe the effect of replacing a word with sense-appropriate and sense-inappropriate alternatives using the [WiC annotated dataset](https://osf.io/preprints/psyarxiv/b45ys_v1). Look at the effects of context-word interaction on both embeddings and surprisal:
 
-Perform representational similarity analysis to compare how the same concepts are represented across languages:
+<p align="center">
+  <img src="example_outputs/example_wic.png" alt="Colab Demo" width="800"/>
+</p>
 
-![example_RSA_crosslingual](example_outputs/example_RSA_crosslingual.png)
+<br>
 
-Compare concept representations across modalities in unimodal models, using the AlexNet convolutional neural network to represent images (from the [THINGSplus database](https://link.springer.com/article/10.3758/s13428-023-02110-8)) and BERT-large to represent captions:
+Perform representational similarity analysis to compare how the same concepts are represented across languages (in their correponding monolingual models):
 
-![example_RSA_crossmodal](example_outputs/example_RSA_crossmodal.png)
+<p align="center">
+  <img src="example_outputs/example_RSA_crosslingual.png" alt="Colab Demo" width="750"/>
+</p>
 
+<br>
+
+Compare concept representations across modalities in unimodal models, using the AlexNet convolutional neural network to represent images (from the [THINGSplus database](https://link.springer.com/article/10.3758/s13428-023-02110-8)) and BERT-large to represent their captions:
+
+<p align="center">
+  <img src="example_outputs/example_RSA_crossmodal.png" alt="Colab Demo" width="800"/>
+</p>
